@@ -3,7 +3,7 @@ package com.abstr;
 import com.sun.jdi.PathSearchingVirtualMachine;
 
 abstract class PetrolPrice {
-    abstract void changePrice();
+    abstract void changePrice();  //We are hiding this from the user
 }
 
 class Govt extends PetrolPrice{
